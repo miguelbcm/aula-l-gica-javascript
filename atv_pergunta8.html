@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let numero1 = parseInt(prompt("Digite o primeiro numero: "))
+        let numero2 = parseInt(prompt("Digite o segundo numero: "))
+        let numero3 = parseInt(prompt("Digite o terceiro numero: "))
+        let numero4 = parseInt(prompt("Digite o quarto numero: "))
+
+        let soma = 0
+        
+       if (numero1 > 0 && numero1 < 10 ){
+        soma = soma + numero1
+       }if (numero2 > 0 && numero2 < 10 ){
+        soma = soma + numero2
+       }if (numero3 > 0 && numero3 < 10 ){
+        soma = soma + numero3
+       }if (numero4 > 0 && numero4 < 10 ){
+        soma = soma + numero4
+       }
+
+       media = soma / 4
+        if (media > 5){
+            document.write("Você passou no teste")
+        }else{
+            document.write("Tente Novamente")
+        }
+        
+       
+    </script>
+    
+</body>
+</html>
